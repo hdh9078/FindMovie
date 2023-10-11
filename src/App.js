@@ -1,22 +1,13 @@
 import {data} from "./movieData";
 import Movie from "./components/Movie";
+import "./css/App.css"
+import Router from "./components/Router";
 
 function App() {
+  console.log("a", data)
   return (
     <div className="App">
-      <div className="app-container">
-        {
-          data.results.map((value) => {
-            return (
-              <Movie
-                title={value.title}
-                poster_path={value.poster_path}
-                vote_average={value.vote_average}
-              />
-            )
-          })
-        }
-      </div>
+      <Router/>
     </div>
   );
 }
