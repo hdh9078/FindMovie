@@ -7,7 +7,7 @@ export default function Movie({title, poster_path, vote_average}) {
         <div className="movieContainer">
             <img src={BASE_URL + poster_path}/>
             <div className="movieInfo">
-                <h4>제목 {title}</h4>
+                <h4>제목{title}</h4>
                 <span>평점 {vote_average}</span>
             </div>
         </div>
