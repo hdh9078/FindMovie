@@ -391,6 +391,263 @@ export const upcomingMovie = {
         "video": false,
         "vote_average": 9.3,
         "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/tKRQbdGp8jHaWicKr9Qq8TNJZdu.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1086626,
+        "original_language": "ko",
+        "original_title": "믿을 수 있는 사람",
+        "overview": "한영은 중국에서 살았을 때 배운 중국어를 활용하여 중국어 관광통역안내사 자격증을 취득하고 가이드가 된다. 아직 익숙지 않은 환경에 적응해 가며 실적도 제법 쌓지만 함께 온 동생 인혁의 행방은 알 수가 없고 사드 배치로 중국인 관광객까지 줄어드는 등 한영의 삶은 시대의 흐름과 함께 계속적으로 변화를 맞이한다.",
+        "popularity": 7.204,
+        "poster_path": "/yhwzXIgApNTK2Y676oPkb79isBE.jpg",
+        "release_date": "2023-10-18",
+        "title": "믿을 수 있는 사람",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7ktjaB9NlrSnjs0YBFffqvMicrE.jpg",
+        "genre_ids": [
+          10751,
+          18
+        ],
+        "id": 741600,
+        "original_language": "cn",
+        "original_title": "別叫我\"賭神\"",
+        "overview": "빚에 허덕이며 매일 카지노에 출근 도장을 찍는 왕년의 도신 ‘광휘’에게 오래전 곁을 떠난 여자친구가 찾아와 그의 아들이라며 한 달간 ‘아양’을 돌봐 달라고 부탁한다. 도박 빚 때문에 한 푼이 아쉬운 ‘광휘’는 양육비로 내민 5만 달러의 달콤한 제안을 수락하게 된다.하늘에서 뚝 떨어진 아들 ‘아양’과 한 달 살이를 시작한 ‘광휘’. 청소도 기가 막히게 잘하고, 뽑는 카드 족족 돈을 따게 만들어주는 아들과 철없는 아빠 ‘광휘’는 티격태격하며 점점 정이 들어가는데… 약속한 한 달이 되어 이별을 준비하는 그때 ‘아양’의 엄마가 위중한 상태라는 연락을 받게 되고, ‘광휘’는 자신의 과거를 지우고 아들 ‘아양’을 잘 돌보겠다고 결심하게 된다.  평생을 가진 것 없이 살았던 그에게 찾아온 기적 같은 선물! 인생 2회차, 새로운 판이 시작됐다!",
+        "popularity": 5.212,
+        "poster_path": "/bCqS1MkwZouIdfevYIBz74VBTbp.jpg",
+        "release_date": "2023-11-01",
+        "title": "원 모어 찬스",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 6
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lGL6HNc2h0VmdEtjQ2bZfWX8qn1.jpg",
+        "genre_ids": [
+          10749,
+          18
+        ],
+        "id": 977179,
+        "original_language": "th",
+        "original_title": "เธอกับฉันกับฉัน",
+        "overview": "‘유'와 ‘미'는 하루하루의 모든 순간을 함께하며 모든 것을 나누는 일란성쌍둥이 소녀들이다. 어느 날 ‘미'가 ‘유'를 대신해 수학 시험을 보러 갔다가 ‘마크’라는 소년에게 연필을 빌리게 되는데 둘은 서로에게 두근거림을 느끼게 된다. ‘유'와 ‘미‘는 시골 할머니 집에서 여름방학을 보내게 되고 ‘유'는 혼자 전통악기 수업을 들으러 갔다가 우연히 자신을 ‘미’로 오해하고 자신에게 말을 거는 소년 ‘마크’를 만난다. ‘유’는 ‘마크’에게 한눈에 반해 그에게 시험장에서 만난 게 자신이 아니라고 털어놓지 못하고, ‘미’는 ‘마크’에게 반해버린 ‘유’를 보며 ‘마크’를 향한 자신의 마음을 애써 감춘다.  그렇게 평생 모든 걸 함께 나누며 살 것 같았던 쌍둥이들에게 나눌 수 없는 첫사랑이 찾아온다.",
+        "popularity": 4.679,
+        "poster_path": "/6qdaQ7l9ZKRnOKKFxEoiuX1tJkk.jpg",
+        "release_date": "2023-10-25",
+        "title": "유앤미앤미",
+        "video": false,
+        "vote_average": 6,
+        "vote_count": 12
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yNOhMG7M37spJPdknhET1Fdn8BN.jpg",
+        "genre_ids": [
+          18,
+          10749
+        ],
+        "id": 972435,
+        "original_language": "ko",
+        "original_title": "너와 나",
+        "overview": "수학여행 전날, 샘은 그녀의 가장 친한 친구 하은이 죽는 불길한 꿈을 꾼다. 두려움에 휩싸인 샘은 최근 자전거 사고로 병원에 입원한 하은에게 달려가 함께 수학여행을 가자고 한다. 두 소녀는 여행을 위한 돈을 벌기 위해 하은의 캠코더를 팔기로 결심한다. 캠코더를 팔러 가는 길, 샘은 자신이 느끼는 하은에 대해 감정과 하은의 마음이 다를지도 모른다는 깊은 불안을 느낀다. 그녀는 하은을 둘러싼 사람들에게 질투심을 보이고 결국 그녀를 지치게 만든다. 둘이 크게 다툰 후, 하은은 사라지고 샘은 그녀를 찾아 헤매게 된다.",
+        "popularity": 5.724,
+        "poster_path": "/bYRzJcBw70JQzQrhTLUMkgeCt19.jpg",
+        "release_date": "2023-10-25",
+        "title": "너와 나",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/wgg0uDc0srsvQJQYlnnOhTAHNSr.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1174346,
+        "original_language": "ko",
+        "original_title": "약속",
+        "overview": "아홉 살 소년 시우는 밤이 되면 세상을 떠난 엄마가 그리워 눈물을 흘리곤 한다. 그럴 때마다 시우의 아빠 민병훈은 아들을 감싸 안으며 마음을 다독인다. 사랑하는 이를 잃은 부자는 슬픔과 고독, 그리움으로 사무친 시간을 보낼 수밖에 없지만 둘이 함께하는 순간만은 따뜻하고 강하다.",
+        "popularity": 2.749,
+        "poster_path": "/cmw6brdxkbGlD3npwWFvLihwSZb.jpg",
+        "release_date": "2023-11-01",
+        "title": "약속",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ptT7yDPqHPJmCYVUZ9hQhr5QyF8.jpg",
+        "genre_ids": [
+          9648,
+          53
+        ],
+        "id": 977152,
+        "original_language": "ko",
+        "original_title": "오픈 더 도어",
+        "overview": "홀로 집에서 술잔을 기울이던 문석에게 처남인 치훈이 찾아온다. 함께 술자리를 이어가는데, 5년 전 강도사건으로 엄마를 떠나보낸 생각에 울분이 터진 치훈. 누나에 대한 이야기로 이어지며 서로의 감정은 극에 다다르고 결국 하지 말아야 할 말을 내뱉고 만 문석. 혼란에 휩싸인 문석과 치훈은 이제 선택을 해야만 한다.",
+        "popularity": 4.21,
+        "poster_path": "/alghp3edIUkbDx0TSqACWKfEepo.jpg",
+        "release_date": "2023-10-25",
+        "title": "오픈 더 도어",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1125324,
+        "original_language": "ko",
+        "original_title": "고인돌",
+        "overview": "영화 <고인돌>은 기원전 2333년 한반도 최초 부족국가 고조선 설립 직전의 이야기다. 고인돌 문화가 융성한 시대, 태양부족과 달 부족이 지석강을 경계로 적대관계에 놓여 있다. 태양부족장 딸 사스미와 달 부족장 아들 바우쩍은 사냥터에서 만나 운명적인 사랑에 빠진다. 그러나 그들의 사랑은 부족 간 전쟁으로 비화되고... 바우쩍은 사스미를 지키기 위해 달 부족장이 쏜 화살을 대신 맞고 죽는다. 아비가 아들을 죽인 상황이 된 것이다. 그리고 현재 고대인 바우쩍과 사스미는 성이 다른 남녀로 태어나 고고학 박사와 여고생의 신분으로 다시 만나는데...",
+        "popularity": 5.627,
+        "poster_path": "/xjoeTGzcz2kag1ebzHjHivG1HuV.jpg",
+        "release_date": "2023-10-19",
+        "title": "고인돌",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6uAjCDeHnvM2CvQCQZrchDBU2MS.jpg",
+        "genre_ids": [
+          18,
+          53,
+          9648
+        ],
+        "id": 1006031,
+        "original_language": "ko",
+        "original_title": "독친",
+        "overview": "집안도 좋고 공부도 잘하는 완벽한 아이 유리가 어느 날 죽은 채로 발견된다. 형사는 자살에 가능성을 두지만, 유리의 엄마 혜영은 예나와 기범 때문에 유리가 죽었다고 주장한다. 한때 유리의 단짝 친구였던 아이돌 연습생 예나와 유리에게 유독 신경 써주었던 담임 선생님 기범. 서로 다른 주장으로 수사는 난항을 겪고, 수사가 진행될수록 혜영으로 인해 유리의 마음에 균열 가고 있던 것이 드러난다. 최선을 다해 딸을 사랑했다고 믿었던 혜영은 죽음에 얽힌 진실을 풀어낼 수 있을까?",
+        "popularity": 4.281,
+        "poster_path": "/Ary2DCWXriUDyykn6VL4PNjekg5.jpg",
+        "release_date": "2023-11-01",
+        "title": "독친",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/uj4ChlZG4014QhcfMwlExpI3Nz6.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1114775,
+        "original_language": "ko",
+        "original_title": "우리의 하루",
+        "overview": "한때 배우로 일했던 상원(김민희)은 지금 선배 정수(송선미)의 거처에 머무르는 중이다. 어느 오후, 배우가 되고 싶다는 여자가 찾아와 상원의 이야기를 듣고자 한다. 시인 홍의주(기주봉)는 심장이 안 좋아져서 술 담배를 끊은 상태다. 젊은 감독이 시인에 대한 다큐멘터리를 찍기 위해 그의 집에 와 있다. 마침 시인을 동경해온 한 남자가 방문해 그에게 여러 질문을 던진다.",
+        "popularity": 4.169,
+        "poster_path": "/712BOyadfS8Dt56ymxEyahlqYOQ.jpg",
+        "release_date": "2023-10-19",
+        "title": "우리의 하루",
+        "video": false,
+        "vote_average": 7,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          10402,
+          99
+        ],
+        "id": 1148154,
+        "original_language": "ko",
+        "original_title": "마이 샤이니 월드",
+        "overview": "샤이니 데뷔 15주년 기념 영화",
+        "popularity": 3.828,
+        "poster_path": "/pUt4jSQ6oH9Jj8PGq1Z0unNbJUy.jpg",
+        "release_date": "2023-11-03",
+        "title": "마이 샤이니 월드",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/m3CVpgdPospIf53mxaiOD5UIOBj.jpg",
+        "genre_ids": [
+          10749
+        ],
+        "id": 846517,
+        "original_language": "zh",
+        "original_title": "再說一次我願意",
+        "overview": "너에게 첫눈에 반한 지 2225일째, 두근두근 설렘 가득 대망의 날이 밝았다!  프러포즈 D-DAY를 맞이한 ‘루크’는 ‘샤오차이’가 감동할 모습을 기대하며 분주한 하루를 보낸다. ☑ 마음을 전달할 반지 맞추기 ☑ 프러포즈를 도와줄 친구들과 사전 모임 ☑ 멋지게 꽃 단장하기 ☑ 여친 도착 전 리허설은 필수 마침내 오늘의 주인공 ‘샤오차이’가 도착하고 모든 게 완벽하다 생각한 순간, ‘루크’의 고백은 청천벽력 같은 거절과 함께 암전?! 그리고 다시, 프러포즈날의 아침이 밝았다?!",
+        "popularity": 3.377,
+        "poster_path": "/xbhoXMTzSsYIrHokOccsEaEFEkk.jpg",
+        "release_date": "2023-10-18",
+        "title": "세이 예스 어게인",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 2
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/i12K4LKnzrXV4Q8s64kYM25PMnY.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 913824,
+        "original_language": "en",
+        "original_title": "Free Chol Soo Lee",
+        "overview": "탕! 탕! 탕! 1973년 6월 3일, 미국 샌프란시스코 차이나타운 거리 한복판에서 중국인 갱단이 총격을 받고 사망한다. 5일 후, 한 동양인 청년이 살인 용의자로 긴급 체포된다. 이름 ‘철수 리’, 21살의 한인 이민자였다. 동양인 외모를 구별 못하는 백인 목격자들의 증언으로 종신형을 선고받은 이철수는 곧장 캘리포니아에서 가장 폭력적인 교도소에 수감된다. 그대로 묻힐 뻔했던 사건은 한 기자의 심층 보도로 다시 수면 위로 떠오른다. 한인 최초의 미국 주류 신문사 기자였던 이경원은 차이나타운 취재 중 우연히 이철수 사건을 접하고, 엉터리 재판 과정을 폭로한다. 이철수의 억울한 사연이 알려지며 한인 이민 사회와 종교계가 들끓고, 재심을 요구하는 구명 운동이 시작된다. ‘프리 철수 리’ 운동이 아시안아메리칸 사회를 뒤흔들며 빠르게 번져가던 중, 교도소 안 이철수는 갱의 공격으로부터 자신을 지키려다 진짜 살인을 저지르게 되는데…. 반전에 반전을 거듭한 10년의 재판, 그리고 아무도 예상하지 못했던 이철수의 나머지 삶의 반전! 2023년, 모두의 기대를 배반하고 충격적인 감동을 선사할, 당신의 인생 영화가 될 최고의 다큐멘터리!",
+        "popularity": 2.345,
+        "poster_path": "/40IwTtEOYDCMLXKuC4ronJJwJFm.jpg",
+        "release_date": "2023-10-18",
+        "title": "프리 철수 리",
+        "video": false,
+        "vote_average": 7.3,
+        "vote_count": 8
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rJIZEbtjfMWCdFn0d4ZTBWbF6Rf.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 1099951,
+        "original_language": "ko",
+        "original_title": "너를 줍다",
+        "overview": "사랑에 배신 당한 지수는 타인의 쓰레기를 뒤지면 그 사람의 진짜 모습을 알 수 있다고 믿는다. 어느 날, 최선을 다해서 깔끔하게 버린 쓰레기가 눈에 띈다. 옆집 남자 우재의 것이다. 지수는 그가 궁금하다. 지수는 쓰레기 정보로 그에게 접근하는 데 성공한다. 우재와의 만남이 거듭되면서 그의 밝고 따뜻함, 그리고 상처들. 지수는 점차 마음이 열리기 시작한다.",
+        "popularity": 1.834,
+        "poster_path": "/4dbSyYeOCYceOLs5ebvFufYU5qY.jpg",
+        "release_date": "2023-11-08",
+        "title": "너를 줍다",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4mehkHD0Jak932oTcMV7ONAk6j9.jpg",
+        "genre_ids": [
+          99
+        ],
+        "id": 1021777,
+        "original_language": "ko",
+        "original_title": "두 사람을 위한 식탁",
+        "overview": "섭식장애로 고통받는 딸과 딸의 병에 무력한 엄마, 모녀관계의 깊고 깊은 연원을 파고든다. 2007년 15살 채영은 거식증 진단을 받고 폐쇄병동에 입원한다. 엄마 상옥은 막연한 죄책감에 딸의 병이 어디서 온 것인지를 되짚지만 알 길이 없다. 10년 뒤 엄마와 딸의 대화가 시작된다. 채영의 일기와 그림, 보이스 오버에 의지하여 감독은 할머니-어머니-딸, 삼대로 이어진 모녀관계의 갈등과 고통의 내력을 탐문한다.",
+        "popularity": 0.942,
+        "poster_path": "/k8A3LyQwctIu5KWFqyBsa50LJA7.jpg",
+        "release_date": "2023-10-25",
+        "title": "두 사람을 위한 식탁",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
       }
     ],
     "total_pages": 2,

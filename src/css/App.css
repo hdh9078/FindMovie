@@ -1,11 +1,25 @@
-* {
-    box-sizing: border-box;
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 .app-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  font-family: 'SUIT-Regular';
+  background-color: #1d193a;
+  padding-top: 20px;
 }
 
 .movieContainer {
@@ -13,8 +27,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 250px;
+    width: 200px;
+    margin: 20px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.movieContainer:hover {
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.movieImg {
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
 }
 
 .movieInfo {
@@ -22,82 +51,39 @@
     justify-content: space-between;
     align-items: center;
     padding: 35px;
-    width: 270px;
-    height: 50px;
-}
-
-.movieImg {
     width: 200px;
-    height: 300px;
+    height: 70px;
+    background-color: #363062;
+    padding: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
-.movieSlideCover {
-    width: 100%;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 1px solid rgb(226 226 226);
-}
-
-.movieSlideWrapper{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    transform: translateX(0%);
-    animation: imgslide 10s ease-in-out infinite;
-}
-
-.movieSlideImg {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 450px;
-    flex: 1 0 auto;
-    transition: all 0.3s;
+h4, span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  height: 20px;
 }
 
 h4 {
-    width: 120px;
+  width: 150px;
+  font-weight: lighter;
+}
+
+span {
+  text-align: center;
+  width: 50px;
 }
 
 
-@keyframes imgslide {
-    0% {
-      transform: translateX(0%);
-    }
-  
-    20% {
-      transform: translateX(0%);
-    }
-  
-    25% {
-      transform: translateX(-100%);
-    }
-  
-    45% {
-      transform: translateX(-100%);
-    }
-  
-    50% {
-      transform: translateX(-200%);
-    }
-  
-    70% {
-      transform: translateX(-200%);
-    }
-  
-    75% {
-      transform: translateX(-300%);
-    }
-  
-    95% {
-      transform: translateX(-300%);
-    }
-  
-    100% {
-      transform: translateX(0%);
-    }
-  }
+.movieVIdeoCover {
+    width: 100%;
+    height: auto;
+}
+
+.moviePlay {
+    width: 100%;
+}

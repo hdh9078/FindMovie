@@ -1539,47 +1539,6 @@ export const data = {
       "vote_average": 8.2,
       "vote_count": 474
     },
-    {
-      "adult": false,
-      "backdrop_path": "/8GXkzHTvuj3ftethkrqW330LJKz.jpg",
-      "genre_ids": [
-        10402
-      ],
-      "id": 568300,
-      "original_language": "ko",
-      "original_title": "러브 유어셀프 인 서울",
-      "overview": "2018년 8월 서울공연을 시작으로, 미주, 유럽, 아시아 등 20개 도시 41회 공연 규모로 열리는 'LOVE YOURSELF’ 투어. 현재 진행 중인 가장 핫한 콘서트를 담은 ‘러브 유어셀프 인 서울’은 미국 빌보드 200 1위에 빛나는 글로벌 그룹 방탄소년단 월드투어의 포문을 여는 서울 콘서트를 담아냈으며, 전 세계가 기다린 최고의 무대를 더욱 생동감 있게 느낄 수 있다.",
-      "popularity": 13.847,
-      "poster_path": "/1u0rtWPgYfAWmqveXOsQDvMRODD.jpg",
-      "release_date": "2019-01-26",
-      "title": "러브 유어셀프 인 서울",
-      "video": false,
-      "vote_average": 8.2,
-      "vote_count": 421
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/eNWjMbuhGxJdzaIY9ZZ2KvWx2sQ.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        18,
-        14,
-        12
-      ],
-      "id": 110420,
-      "original_language": "ja",
-      "original_title": "おおかみこどもの雨と雪",
-      "overview": "평범한 여대생 하나는 강의실에서 우연히 만나게 된 그에게 반하게 되고, 곧 사랑에 빠지게 된다. 하지만 그는 평범한 사람이 아닌 늑대인간이었다. 늑대인간과의 동화 같은 사랑 후에 남은 것은 두 아이뿐. 눈 내리는 날에 태어난 누이 유키, 비 내리는 날 태어난 동생 아메. 두 아이에게는 커다란 비밀이 있는데, 바로 흥분하면 귀가 쫑긋, 꼬리가 쏘옥 나오는 늑대아이라는 것. 남들과 조금 다른 육아, 남들과 살짝 다른 고민을 하며 신비로운 운명을 살아가는 남매와 특별한 두 아이를 키우는 엄마의 이야기가 시작된다.",
-      "popularity": 23.943,
-      "poster_path": "/2mF1IKMeB9JGstJqismy5AoamrV.jpg",
-      "release_date": "2012-09-12",
-      "title": "늑대아이",
-      "video": false,
-      "vote_average": 8.2,
-      "vote_count": 2090
-    }
-
   ],
   "total_pages": 234,
   "total_results": 4675
