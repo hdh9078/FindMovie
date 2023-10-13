@@ -19,7 +19,6 @@
   align-items: center;
   font-family: 'SUIT-Regular';
   background-color: #1d193a;
-  padding-top: 20px;
 }
 
 .movieContainer {
@@ -79,11 +78,84 @@ span {
 }
 
 
-.movieVIdeoCover {
+.movieVideoCover {
     width: 100%;
     height: auto;
 }
 
 .moviePlay {
     width: 100%;
+}
+
+.movieBtn {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.movieBtnIcon {
+  position: relative;
+    bottom: 50px;
+    width: auto;
+    height: 30px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* modal */
+.hidden {
+  display: none;
+}
+
+.modalWrapper {
+  
+    background-color: rgb(161, 161, 161, 0.5);
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+}
+
+.modalMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  background-color: #ffff;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modalTitle {
+  margin: 12px;
+}
+
+.modalButton {
+  border: none;
+  background-color: #ffff;
+  margin: 12px;
+}
+
+.wrapperMyPlaylist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
