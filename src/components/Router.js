@@ -2,14 +2,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Header from "./Header";
 import Footer from "./Footer";
 import { movieNow } from "../movieNow";
-import { data } from "../movieData.ts";
+import { data } from "../movieData";
 import { upcomingMovie } from "../movieUpcoming";
 import Main from "./Main";
 import Movie from "./Movie"
 import Upcoming from "./Upcoming";
 import VoteAverage from "./VoteAverage";
-import Pickup from "./Pickup";
-import MovieInfor from "./MovieInfor";
+import MovieContext, { MovieProvider } from "./store/movie-context";
+import MoviePickupList from "./MoviePickupList";
+import { useContext } from "react";
 
 
 export default function Router() {
@@ -34,12 +35,11 @@ export default function Router() {
                     } />
                     <Route path="/upcoming" element={
                         <div className="app-container">
-                            {upcomingMovie.results.map((value) => {
+                            {upcomingMovie.results.map((value, i) => {
                                 return (
                                     <Upcoming
-                                        title={value.title}
-                                        poster_path={value.poster_path}
-                                        release_date={value.release_date}
+                                        key={i}
+                                        movieData={value}
                                     />
                                 )
                             })
@@ -58,8 +58,7 @@ export default function Router() {
                             })
                             }
                         </div>} />
-                    <Route path="/pickup" element={<Pickup />} />
-                    <Route path="/movie/:title" element={<MovieInfor />} />
+                    <Route path="/pickup" element={<MoviePickupList />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

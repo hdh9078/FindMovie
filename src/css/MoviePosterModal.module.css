@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.dim {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 16px;
+    border: 3px solid #1D193A;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.modalImg {
+    border-radius: 16px;
+    width: 400px;
+    height: 300px;
+}
+
+.movieData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #363062;
+    color: white;
+    width: 80%;
+    margin: 20px;
+    font-family: 'SUIT-Regular';
+}
+
+.story {
+    line-height: 2.1;
+}

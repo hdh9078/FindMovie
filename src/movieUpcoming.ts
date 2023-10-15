@@ -1,8 +1,22 @@
-export const upcomingMovie = {
-    "dates": {
-      "maximum": "2023-11-03",
-      "minimum": "2023-10-09"
-    },
+export interface MovieUpcoming {
+  adult: boolean;
+  backdrop_path: string;
+  genre_ids: number[];
+  id: number;
+  original_language: string;
+  original_title: string;
+  overview: string;
+  popularity: number;
+  poster_path: string;
+  release_date: string;
+  title: string;
+  video: boolean;
+  vote_average: number;
+  vote_count: number;
+}
+
+
+export const upcomingMovie: { page: number; results: MovieUpcoming[]; total_pages: number, total_results: number } = {
     "page": 1,
     "results": [
       {
@@ -506,7 +520,7 @@ export const upcomingMovie = {
       },
       {
         "adult": false,
-        "backdrop_path": null,
+        "backdrop_path": "/ptT7yDPqHPJmCYVUZ9hQhr5QyF8.jpg",
         "genre_ids": [],
         "id": 1125324,
         "original_language": "ko",
@@ -560,7 +574,7 @@ export const upcomingMovie = {
       },
       {
         "adult": false,
-        "backdrop_path": null,
+        "backdrop_path": "/ptT7yDPqHPJmCYVUZ9hQhr5QyF8.jpg",
         "genre_ids": [
           10402,
           99

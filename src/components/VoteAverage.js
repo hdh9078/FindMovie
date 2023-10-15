@@ -1,7 +1,5 @@
 import React from "react";
-import image1 from "../img/기생충.jpg"
-import image2 from "../img/너의 이름은.jpg"
-import image3 from "../img/인셉션.jpg"
+
 
 const BASE_URL = "https://image.tmdb.org/t/p/w500/";
 

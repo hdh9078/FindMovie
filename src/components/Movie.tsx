@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import MoviePosterModal from "./MoviePosterModal.tsx";
 import { MovieData } from "../movieData.ts";
 

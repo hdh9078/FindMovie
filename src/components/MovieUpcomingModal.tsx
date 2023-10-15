@@ -1,22 +1,22 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { createPortal } from 'react-dom';
-import { MovieData } from '../movieData.ts';
+import { MovieUpcoming } from '../movieUpcoming.ts';
 import styles from "../css/MoviePosterModal.module.css";
 import MovieContext from './store/movie-context.tsx';
 
 const BASE_URL = "https://image.tmdb.org/t/p/w500/";
 
 interface Props {
-    movieData: MovieData;
+    movieData: MovieUpcoming;
     setVisibleModal: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export default function MoviePosterModal({ movieData, setVisibleModal }: Props) {
+export default function MovieUpcomingModal({ movieData, setVisibleModal }: Props) {
 
-    const { movies, setMovies } = useContext(MovieContext);
+    const { upcoming, setUpcoming } = useContext(MovieContext);
 
-    const addMovie = (movie: MovieData) => {
-        setMovies((prev) => [...prev, movie]);
+    const addMovie = (movie: MovieUpcoming) => {
+        setUpcoming((prev) => [...prev, movie]);
     };
 
 
