@@ -19,14 +19,28 @@ export default function Router() {
             <BrowserRouter>
                 <Header />
                 <Routes>
+                    <Route path="/" element={
+                            <div className="app-container">
+                                <Main />
+                                {movieNow.results.map((value, i) => {
+                                    return (
+                                        <Movie
+                                            key={i}
+                                            movieData={value}
+                                        />
+                                    )
+                                })
+                                }
+                            </div>}
+                        />
+
                     <Route path="/voteAverage" element={
                         <div className="app-container">
-                            {data.results.map((value) => {
+                            {data.results.map((value, i) => {
                                 return (
                                     <VoteAverage
-                                        title={value.title}
-                                        poster_path={value.poster_path}
-                                        vote_average={value.vote_average}
+                                        key={i}
+                                        movieData={value}
                                     />
                                 )
                             })
@@ -45,19 +59,7 @@ export default function Router() {
                             })
                             }
                         </div>} />
-                    <Route path="/" element={
-                        <div className="app-container">
-                            <Main />
-                            {movieNow.results.map((value, i) => {
-                                return (
-                                    <Movie
-                                        key={i}
-                                        movieData={value}
-                                    />
-                                )
-                            })
-                            }
-                        </div>} />
+                    
                     <Route path="/pickup" element={<MoviePickupList />} />
                 </Routes>
                 <Footer />

@@ -25,6 +25,10 @@ export default function Main() {
         };
     };
 
+    const move = () => {
+        window.location.href = "#movieSentence"
+    }
+
     
 
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -33,8 +37,8 @@ export default function Main() {
         <>
             <div className="movieVideoCover">
                 <video ref={videoRef} className="moviePlay" onEnded={onVideoEnded} src="/노량.mp4" autoPlay muted />
-                <button className="movieBtn"><a href="#down"><FontAwesomeIcon icon={faAnglesDown} className="movieBtnIcon" /></a></button>
-                <div className="down" id="down"></div>
+                <button className="movieBtn" onClick={move}><FontAwesomeIcon icon={faAnglesDown} className="movieBtnIcon" /></button>
+                <div className="movieSentence" id="movieSentence">현재 상영중</div>
             </div>
         </>
 

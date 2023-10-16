@@ -22,20 +22,22 @@ export default function MovieUpcomingModal({ movieData, setVisibleModal }: Props
 
     return (
         <Portal>
-            <div className={styles.dim} onClick={() => setVisibleModal(false)} />
-            <div className={styles.container}>
-                <div className={styles.header}>
-                    <div onClick={() => setVisibleModal(false)}>x</div>
-                </div>
+            <div className={styles.dim} onClick={() => setVisibleModal(false)}>
+                <div className={styles.container}>
+                    <div className={styles.header}>
+                        <div className={styles.outBtn} onClick={() => setVisibleModal(false)}>x</div>
+                    </div>
 
 
-                <img className={styles.modalImg} src={BASE_URL + movieData.poster_path} />
-                <div className={styles.movieData}>
-                    <div>제목:{movieData.title}</div><br />
-                    <div>개봉날짜:{movieData.release_date}</div><br />
-                    <div className={styles.story}>줄거리:{movieData.overview}</div>
+                    <img className={styles.modalImg} src={BASE_URL + movieData.poster_path} />
+                    
+                    <div className={styles.movieData}>
+                        <div>제목:{movieData.title}</div><br />
+                        <div>개봉날짜:{movieData.release_date}</div><br />
+                        <div className={styles.story}>줄거리:{movieData.overview}</div>
+                        <button className={styles.btn} onClick={() => addMovie(movieData)}>찜</button>
+                    </div>
                 </div>
-                <button onClick={() => addMovie(movieData)}>찜</button>
             </div>
         </Portal>
     )

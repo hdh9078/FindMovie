@@ -15,28 +15,49 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: fixed;
     top: 50%;
     left: 50%;
     width: 600px;
+    height: 700px;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: none;
     border-radius: 16px;
-    border: 3px solid #1D193A;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
 }
 
 .header {
     display: flex;
-    width: 100%;
-    justify-content: flex-end;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 20px;
+    color: orange;
+    right: 5px;
+    cursor: pointer;
+    font-size: 30px;
 }
 
 .modalImg {
     border-radius: 16px;
-    width: 400px;
-    height: 300px;
+    width: 598px;
+    height: 360px;
+    border: 3px solid orange;
+}
+
+.pickupCover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #363062;
+}
+
+.pickupBtn {
+    position: absolute;
+    all: unset;
+    cursor: pointer;
 }
 
 .movieData {
@@ -45,11 +66,15 @@
     align-items: flex-start;
     background-color: #363062;
     color: white;
-    width: 80%;
-    margin: 20px;
+    width: 100%;
+    height: auto;
     font-family: 'SUIT-Regular';
+    font-size: 15px;
+    border-radius: 16px;
+    padding: 10px;
+    border: 3px solid orange;
 }
 
 .story {
-    line-height: 2.1;
+    line-height: 2.0;
 }
