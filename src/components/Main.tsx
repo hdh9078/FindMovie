@@ -32,14 +32,22 @@ export default function Main() {
     
 
     const videoRef = useRef<HTMLVideoElement>(null);
+    const [any, setAny] = useState(false)
+    const stop = () => {
+        
+        setAny(true)
+    }
+    
 
     return (
         <>
-            <div className="movieVideoCover">
-                <video ref={videoRef} className="moviePlay" onEnded={onVideoEnded} src="/노량.mp4" autoPlay muted />
-                <button className="movieBtn" onClick={move}><FontAwesomeIcon icon={faAnglesDown} className="movieBtnIcon" /></button>
-                <div className="movieSentence" id="movieSentence">현재 상영중</div>
-            </div>
+                {any ? "" : <div className="background"></div>}
+                <div className="movieVideoCover" onClick={stop}>
+                    <video ref={videoRef} className="moviePlay" onEnded={onVideoEnded} src="/노량.mp4" autoPlay muted />
+                    <button className="movieBtn" onClick={move}><FontAwesomeIcon icon={faAnglesDown} className="movieBtnIcon" /></button>
+                    <div className="movieSentence" id="movieSentence">현재 상영중</div>
+                </div>
+                
         </>
 
     )

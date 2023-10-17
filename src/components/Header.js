@@ -7,7 +7,7 @@ export default function Header() {
         <div className="headerContainer">
             <div className="headerWrapper">
                 <div className="headerLogo">
-                    <Link className="headerLink" to="/">FindMovie</Link>
+                    <Link className="headerLink" to="/main">FindMovie</Link>
                 </div>
                 <div className="headerLinkWrapper">
                     <Link className="headerLink" to="/voteAverage">평점순</Link>
@@ -17,9 +17,6 @@ export default function Header() {
                 </div>
                 <div className="headerLinkWrapper">
                     <Link className="headerLink" to="/pickup">나중에 볼 영화</Link>
-                </div>
-                <div className="headerLinkWrapper">
-                    <Link className="headerLink" to="/location">내 주변 영화관 위치</Link>
                 </div>
             </div>
         </div>

@@ -10,17 +10,7 @@ interface Props {
 }
 
 export default function Movie({ movieData }: Props) {
-    // const navigete = useNavigate();
-    // const movieInfor = (image) => {
-    //     // navigete(`/movie/${props.title}`, {state:props})
-    //     const modal = document.querySelector("#modalContainer");
-    //     modal.classList.remove("hidden");
-    // };
-
-    // const closeModal = () => {
-    //     const modal = document.querySelector("#modalContainer");
-    //     modal.classList.add("hidden");
-    // };
+    
 
     const [visibleModal, setVisibleModal] = useState(false);
 
@@ -36,21 +26,6 @@ export default function Movie({ movieData }: Props) {
 
 
             {visibleModal && <MoviePosterModal movieData={movieData} setVisibleModal={setVisibleModal} />}
-            {/*---------modal---------*/}
-            {/* <div id="modalContainer" className="hidden" onClick={closeModal}>
-                <div className="modalWrapper" onClick={closeModal}>
-                    <div className="modalMain">
-                        <div className="modalHeader">
-                            <div classNames="modalTitle">영화정보</div>
-                            <button type="button" className="modalButton" onClick={closeModal}>x</button>
-                        </div>
-                        <br />
-                        <img className="modalImg" src={BASE_URL + props.poster_path} />
-                        <div class="wrapperMyPlaylist"></div>
-                    </div>
-                </div>
-            </div> */}
-
         </>
     )
 }

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../as.jpg);
+    background-size:cover;
+    position: absolute;
+    top: 0;
+}
+
+.container:hover {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../as.jpg);
+}
+
+.wrapper {
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    color: orange;
+    font-size: 120px;
+    text-align: center;
+}
+
+.btnCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    background: none;
+    text-decoration: none;
+    border: 2px solid orange;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: all 1.4s;
+    position: absolute;
+}
+
+.link:hover {
+    background-color: darkslategray;
+    padding: 30px 40px;
+}
+
+.icon{
+    font-size: 30px;
+}

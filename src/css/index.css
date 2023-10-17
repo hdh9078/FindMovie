@@ -51,13 +51,20 @@
 /* footer */
 .footerContainer {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #363062;
     height: 100px;
+    gap: 5px;
 }
 
-.footerMain {
+.footerHeader {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.footerMain, .footerHeader {
     color: #F99417;
     font-family: 'SUIT-Regular';
 }

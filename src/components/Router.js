@@ -8,9 +8,9 @@ import Main from "./Main";
 import Movie from "./Movie"
 import Upcoming from "./Upcoming";
 import VoteAverage from "./VoteAverage";
-import MovieContext, { MovieProvider } from "./store/movie-context";
 import MoviePickupList from "./MoviePickupList";
-import { useContext } from "react";
+import HeaderMain from "./HeadMain";
+
 
 
 export default function Router() {
@@ -19,7 +19,8 @@ export default function Router() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path="/" element={
+                    <Route path="/" element={<HeaderMain/>}/>
+                    <Route path="/main" element={
                             <div className="app-container">
                                 <Main />
                                 {movieNow.results.map((value, i) => {
@@ -61,6 +62,7 @@ export default function Router() {
                         </div>} />
                     
                     <Route path="/pickup" element={<MoviePickupList />} />
+                    
                 </Routes>
                 <Footer />
             </BrowserRouter>

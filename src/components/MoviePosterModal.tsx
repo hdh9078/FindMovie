@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { MovieData } from '../movieData.ts';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import {faBriefcase} from "@fortawesome/free-solid-svg-icons"
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons"
 import styles from "../css/MoviePosterModal.module.css";
 import MovieContext from './store/movie-context.tsx';
 
@@ -17,10 +17,15 @@ interface Props {
 export default function MoviePosterModal({ movieData, setVisibleModal }: Props) {
 
     const { movies, setMovies } = useContext(MovieContext);
-    const [visible, setVisible] = useState(true);
+
+
     const addMovie = (movie: MovieData) => {
-        setMovies((prev) => [...prev, movie]);
-        setVisible(!visible);
+        setMovies((prev) => { 
+            const newMovies = [...prev, movie];
+            window.localStorage.setItem("Key", JSON.stringify(newMovies));
+            return newMovies });
+        
+        alert("영화가 저장되었습니다.");
     };
 
 
@@ -34,7 +39,7 @@ export default function MoviePosterModal({ movieData, setVisibleModal }: Props) 
 
 
                 <img className={styles.modalImg} src={BASE_URL + movieData.poster_path} />
-                <br/>
+                <br />
                 <div className={styles.movieData}>
                     <div className={styles.pickupCover}>
                         <div>제목:{movieData.title}</div><br />

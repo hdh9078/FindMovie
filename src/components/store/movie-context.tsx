@@ -10,7 +10,6 @@ const MovieContext = createContext({
     setUpcoming: null as any as React.Dispatch<React.SetStateAction<MovieData[]>>,
     voteAverage: [] as MovieData[],
     setVoteAverage: null as any as React.Dispatch<React.SetStateAction<MovieData[]>>
-
 });
 
 //provider component

@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext, useEffect } from 'react';
 import MovieContext from "./store/movie-context.tsx";
 import { MovieData } from '../movieData.ts';
 import styles from "../css/MoviePickupList.module.css";
@@ -14,21 +14,29 @@ interface Props {
 }
 
 export default function MoviePickupList({ movieData }: Props) {
-    const [visible, setVisible] = useState(true);
     const { movies, setMovies } = useContext(MovieContext);
 
+    useEffect(()=> {
+        const data = window.localStorage.getItem("Key");
+        if(!data) {
+            return
+        }
+        setMovies(JSON.parse(data));
+    })
+    
     const removeMovie = (movie: MovieData) => {
-        setMovies(movies.filter((movied) => movied.id !== movie.id));
+        setMovies((prev) => {
+        const newMovies = movies.filter((movied) => movied.id !== movie.id)
+        window.localStorage.setItem("Key", JSON.stringify(newMovies));    
+        return newMovies});
     };
 
     
 
     return (
         <div className={styles.container}>
-            <h2>나중에 볼 영화 목록<br/>{movies.length ? "" 
-            : <div className={styles.noData}>저장된 영화가 없습니다.</div>}
-                
-            </h2>
+            <h2>나중에 볼 영화 목록<br/>{!movies.length &&
+            <div className={styles.noData}>저장된 영화가 없습니다.</div>}</h2>
             
             {movies.map((movie) => {
                 return (

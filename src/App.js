@@ -2,7 +2,6 @@ import "./css/App.css"
 import Router from "./components/Router";
 import { MovieProvider } from "./components/store/movie-context";
 
-
 function App() {
   return (
     <div className="App">
