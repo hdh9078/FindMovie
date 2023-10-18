@@ -3,7 +3,7 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 
 .dim {
@@ -24,14 +24,12 @@
     transform: translate(-50%, -50%);
     border-radius: 16px;
     /* background-color: rgba(#342e5f); */
-    background: linear-gradient(
-        to bottom,
-        rgba(82, 69, 150, 0.5) 10%,
-        rgba(82, 69, 150, 0.7) 25%,
-        rgba(82, 69, 150, 0.8) 50%,
-        rgba(82, 69, 150, 0.9) 75%,
-        rgba(82, 69, 150, 1) 100%
-        )
+    background: linear-gradient(to bottom,
+            rgba(82, 69, 150, 0.5) 10%,
+            rgba(82, 69, 150, 0.7) 25%,
+            rgba(82, 69, 150, 0.8) 50%,
+            rgba(82, 69, 150, 0.9) 75%,
+            rgba(82, 69, 150, 1) 100%)
 }
 
 .header {
@@ -63,18 +61,25 @@
     justify-content: space-between;
     width: 100%;
     background-color: #363062;
-    
+
 }
 
 .pickupBtn {
-    position: absolute;
-    all: unset;
+    /* position: absolute; */
+    /* all: unset; */
     cursor: pointer;
     transition: all 1s;
+    background: none;
+    border: none;
 }
 
-.pickupBtn:hover {
-    color: rgb(233, 213, 123);;
+.pickupBtn svg path {
+    fill: #fff;
+    transition: 0.5s;
+}
+
+.pickupBtn:hover svg path {
+    fill: rgb(233, 213, 123);
 }
 
 .movieData {
@@ -100,15 +105,18 @@
     .container {
         width: 60%;
     }
+
     .header {
         font-size: 20px;
         right: 20px;
     }
+
     .movieData {
         width: 90%;
         height: auto;
         font-size: 13px;
     }
+
     .modalImg {
         width: 60%;
         height: 250px;
