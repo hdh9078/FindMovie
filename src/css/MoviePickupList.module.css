@@ -64,3 +64,23 @@ h2 {
     all: unset;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-left: 0px;
+        justify-content: center;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .noData {
+        font-size: 30px;
+    }
+    .wrapper {
+        width: 150px;
+    }
+    .main {
+        width: 150px;
+        font-size: 13px;
+    }
+}

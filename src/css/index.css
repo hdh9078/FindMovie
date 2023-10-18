@@ -68,3 +68,27 @@
     color: #F99417;
     font-family: 'SUIT-Regular';
 }
+
+@media screen and (max-width: 600px) {
+    
+
+    .headerWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        padding-left: 5px;
+    }
+
+    .headerLogo {
+        font-size: 20px;
+    }
+
+    .headerLinkWrapper {
+        font-size: 15px;
+    }
+
+    .footerHeader {
+        font-size: 15px;
+    }
+}

@@ -34,7 +34,7 @@ export default function MoviePosterModal({ movieData, setVisibleModal }: Props) 
             <div className={styles.dim} onClick={() => setVisibleModal(false)} />
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <div onClick={() => setVisibleModal(false)}><FontAwesomeIcon icon={faCircleXmark} /></div>
+                    <div onClick={() => setVisibleModal(false)}><FontAwesomeIcon icon={faCircleXmark}/></div>
                 </div>
 
 

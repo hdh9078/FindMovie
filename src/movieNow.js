@@ -785,7 +785,44 @@ export const movieNow = {
         "video": false,
         "vote_average": 6.7,
         "vote_count": 83
-      }
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/56Y2H9CcjFelVNtoltNUxx627bw.jpg",
+        "genre_ids": [
+          10751,
+          35
+        ],
+        "id": 1148321,
+        "original_language": "ko",
+        "original_title": "가문의 영광: 리턴즈",
+        "overview": "돈과 권력을 쥐고 있는 전설의 장씨 가문. 가문의 수장 홍회장에게 골칫거리가 딱 하나 있는데, 비혼주의를 선언한 막내딸 진경이다. 어느 날 진경은 처음 본 남자 대서와 하룻밤을 보내게 되고 이 사실을 알게 된 장씨 가문은 일등 사윗감의 조건을 두루 갖춘 대서와 진경을 결혼시키기 위해 온갖 음모를 꾸미기 시작하는데… 장씨 가문에게 던져진 지상 최대의 과제! 세기의 결혼은 과연 성공할 수 있을까?",
+        "popularity": 3.715,
+        "poster_path": "/ozCUmnU6z7chpYXLcO3szIiNShr.jpg",
+        "release_date": "2023-09-21",
+        "title": "가문의 영광: 리턴즈",
+        "video": false,
+        "vote_average": 2.3,
+        "vote_count": 3
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cMDGYZVrx7CPvFmkkMFIPBLAM49.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 54990,
+        "original_language": "it",
+        "original_title": "La leggenda del santo bevitore",
+        "overview": "파리 센 강의 다리 밑에서 알코올에 찌든 채 하루하루를 보내는 노숙자 안드레아스(룻거 하우어 분)는 독실한 분위기의 한 낯선 신사가 건네는 200프랑을 그냥 받게 되고 혹시 훗날 형편이 되면 파리의 한 성당에 있는 소화 테레사 성녀 성상에 봉헌하는 걸로 대신 빚을 갚으면 된다는 신사의 말에 선뜻 맹세를 하는데, 그 후 안드레아스는 호화로움의 정점에서부터 절망의 나락에까지 이르는 묘한 초현실적인 영혼의 여행을 하게 된다.",
+        "popularity": 3.534,
+        "poster_path": "/unGmuX0IZJHPVBEKkvn1AHknjCR.jpg",
+        "release_date": "2023-08-30",
+        "title": "거룩한 술꾼의 전설",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 72
+      },
     ],
     "total_pages": 5,
     "total_results": 95

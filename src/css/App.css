@@ -137,56 +137,38 @@ span {
   width: 92%;
 }
 
-/* modal */
-.hidden {
-  display: none;
-}
 
-.modalWrapper {
-  
-    background-color: rgb(161, 161, 161, 0.5);
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 5;
-    width: 100%;
-    height: 100vh;
-}
 
-.modalMain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 700px;
-  height: 700px;
-  transform: translate(-50%, -50%);
-  border-radius: 16px;
-  background-color: #ffff;
-}
 
-.modalHeader {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+@media screen and (max-width: 600px) {
+  /*Main.tsx*/
+  .moviePlay {
+    margin-top: 20px;
+    width: 95%;
+  }
+  .movieBtnIcon {
+    bottom: 25PX;
+    font-size: 15px;  
+  }
+  .movieSentence {
+    font-size: 15px;
+    width: auto;
+  }
 
-.modalTitle {
-  margin: 12px;
-}
-
-.modalButton {
-  border: none;
-  background-color: #ffff;
-  margin: 12px;
-}
-
-.wrapperMyPlaylist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  /*Movie.tsx*/
+  .movieContainer {
+    width: 150px;
+  }
+  .movieImg {
+    width: 150px;
+    height: 200px;
+  }
+  .movieInfo {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 0;
+  }
+  h4, span {
+    font-size: 12px;
+  }
 }
