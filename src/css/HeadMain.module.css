@@ -63,3 +63,15 @@
 .icon{
     font-size: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-size:none;
+    }
+    .wrapper {
+        font-size: 60px;
+    }
+    .link {
+        top: 130px;
+    }
+}
