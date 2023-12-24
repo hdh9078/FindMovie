@@ -16,7 +16,7 @@ export default function Header() {
                     <Link className="headerLink" to="/upcoming">개봉예정</Link>
                 </div>
                 <div className="headerLinkWrapper">
-                    <Link className="headerLink" to="/pickup">나중에 볼 영화</Link>
+                    <Link className="headerLink" to="/pickup">찜 목록</Link>
                 </div>
                 <div className="headerLinkWrapper2">
                     <Link className="headerLink" to="/signin">로그인</Link>

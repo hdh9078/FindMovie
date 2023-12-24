@@ -11,7 +11,7 @@ export default function Signin() {
 
     const signinData = async () => {
         const res = await axios({
-            url: `/signin`,
+            url: "/signin",
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: {
@@ -41,11 +41,7 @@ export default function Signin() {
                             if(e.key === "Enter") {signinData()} //enter키로 로그인
                         }}/>
                         <button className={styles.signinBtn} type="button" onClick={signinData}>로그인</button>
-                    </div>
-                    <div className={styles.Link}>
                         <Link className={styles.signup} to="/signup">회원가입</Link>
-                        |
-                        {/* <Link className={styles.findPassword} to="/find/password"> 비밀번호 찾기</Link> */}
                     </div>
                 </div>
             </div>
