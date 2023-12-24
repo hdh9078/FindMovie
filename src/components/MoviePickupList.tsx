@@ -8,12 +8,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const BASE_URL = "https://image.tmdb.org/t/p/w500/";
 
-interface Props {
-    movieData: MovieData;
-    setVisibleModal: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
-export default function MoviePickupList({ movieData }: Props) {
+export default function MoviePickupList() {
     const { movies, setMovies } = useContext(MovieContext);
 
     useEffect(()=> {

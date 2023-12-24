@@ -10,7 +10,7 @@ import Upcoming from "./Upcoming";
 import VoteAverage from "./VoteAverage";
 import MoviePickupList from "./MoviePickupList";
 import HeaderMain from "./HeadMain";
-
+import Signin from "./Signin";
 
 
 export default function Router() {
@@ -61,7 +61,8 @@ export default function Router() {
                             }
                         </div>} />
                     
-                    <Route path="/pickup" element={<MoviePickupList />} />
+                    <Route path="/pickup" element={<MoviePickupList/>} />
+                    <Route path="/signin" element={<Signin/>}/>
                     
                 </Routes>
                 <Footer />

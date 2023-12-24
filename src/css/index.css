@@ -3,15 +3,16 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'SUIT-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,10 +27,11 @@
 
 .headerWrapper {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     padding-left: 35px;
+    width: 100%;
 }
 
 .headerLogo {
@@ -38,9 +40,21 @@
 }
 
 .headerLinkWrapper {
-   font-size: 20px;
-   padding: 20px;
-   font-family: 'SUIT-Regular';
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: 'SUIT-Regular';
+    width: 180px;
+}
+
+.headerLinkWrapper2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'SUIT-Regular';
+    width: 100%;
 }
 
 .headerLink {
@@ -64,13 +78,14 @@
     font-size: 20px;
 }
 
-.footerMain, .footerHeader {
+.footerMain,
+.footerHeader {
     color: #F99417;
     font-family: 'SUIT-Regular';
 }
 
 @media screen and (max-width: 600px) {
-    
+
 
     .headerWrapper {
         display: flex;
